@@ -15,9 +15,10 @@ Welcome to the Portfolio Project repository! In this tutorial, we'll guide you t
 - HTML: Structure your web pages.
 - CSS: Style and layout your content.
 - JavaScript: Add interactivity and functionality.
-- [Google Fonts](https://fonts.google.com/): Beautiful typography options.
-- [Font Awesome](https://fontawesome.com/): Icons for that extra flair.
-- [Doodle](https://fontawesome.com/): Icons for that extra flair.
+- [Design](https://www.figma.com/file/UfxMyp8T4aJsJgOMAVA76B/portfolio?node-id=1%3A2&mode=dev): UI design file of portfolio
+- [Google Fonts](https://fonts.google.com/specimen/Poppins?query=pop): Beautiful typography options.
+- [Bootstrap Icons](https://icons.getbootstrap.com/): Icons for that extra flair.
+- [Doodles](https://www.figma.com/community/file/892381006526736549): Doodles for making it more fun.
 
 ## Installation 🛠️
 
