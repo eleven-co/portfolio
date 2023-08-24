@@ -9,6 +9,47 @@ body {
   color: #0A0A0A;
 }
 
+button {
+  background: #0a0a0a;
+  border: none;
+  padding: 1rem;
+  border-radius: 10px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.2rem 1rem;
+  font-family: "Poppins", serif;
+  transition: all 0.1s ease-in;
+  cursor: pointer;
+}
+button:hover {
+  transform: translateY(-2px);
+}
+
+a {
+  text-decoration: none;
+  color: #0a0a0a;
+  font-weight: 500;
+}
+
+.btn-secondary {
+  padding: 0.2rem 0.4rem;
+  background: #f6f6f6;
+  border: 1px solid #ececec;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.btn-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
 .container {
   width: 60%;
   margin: 0 auto;
@@ -29,8 +70,69 @@ body {
   gap: 0.5rem;
   padding: 0.2rem 0.4rem;
   border-radius: 10px;
+  transition: all 0.1s ease-in;
   cursor: pointer;
 }
 .container .navbar .nav-item:hover {
   background: #F6F6F6;
+}
+.container .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .header .header-left {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.container .header .header-left .headings .tagline {
+  font-weight: 600;
+}
+.container .header .header-left .headings .title {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.container .header .header-left .headings .sub-title {
+  color: #8d8d8d;
+}
+.container .header .user {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.container .heading {
+  padding-left: 1rem;
+  border-left: 2px solid #ececec;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.container .card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem;
+  border: 1px solid #ececec;
+  border-radius: 10px;
+}
+.container .card .card-nav {
+  display: flex;
+  justify-content: space-between;
+}
+.container .card .card-nav .card-nav-left .title {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.container .card .card-nav .card-nav-left .sub-title {
+  font-size: 1.2rem;
+}
+.container .card .card-nav .card-nav-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.5rem;
+}
+.container .card .card-body .description {
+  color: #8d8d8d;
 }/*# sourceMappingURL=styles.css.map */
